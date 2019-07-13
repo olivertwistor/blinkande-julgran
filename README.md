@@ -60,7 +60,7 @@ This project uses [Semantic Versioning 2.0.0][3] for version numbering. To see w
 [1]: http://www.microchip.com/wwwproducts/en/ATmega88
 [2]: https://opensource.org/licenses/MIT
 [3]: https://semver.org/
-[5]: http://www.atmel.com/microsite/atmel-studio/
+[5]: https://www.microchip.com/mplab/avr-support/atmel-studio-7
 [6]: https://sourceforge.net/projects/tinycad/
 [7]: https://en.wikipedia.org/wiki/Perfboard
 [8]: LICENSE
