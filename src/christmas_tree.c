@@ -132,7 +132,7 @@ ISR(TIMER0_OVF_vect)
 		    falling_lights_mode(timer_count);
 		    break;
 
-		// Mode: Random
+		// Mode: One LED on at a time
 		case 4:
 		    one_led_mode(timer_count);
 		    break;
