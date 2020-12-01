@@ -5,15 +5,12 @@ The format is based on [Keep a Changelog][1] and this project adheres to
 [Semantic Versioning 2.0.0][2].
 
 ## Unreleased
+* Changed
+    * Updated the repo documentation to conform to the project model.  
 
-### Fixed
-* The documentation lacked information on how to create a new issue.
-* Various spelling mistakes corrected.
-
-## [0.1.0][3] -- 2019-07-13
-
-### Added
-* The C source code as it was back in 2013 when I made this blinking Christmas
+## [0.1.0][3] (2019-07-13)
+* Added
+    * The C source code as it was back in 2013 when I made this blinking Christmas
 tree device.
 
 
