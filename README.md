@@ -1,14 +1,10 @@
 # Blinking Christmas Tree
-This is a program for a blinking Christmas tree coded onto an ATmega88 microchip. The Christmas tree offers four light patterns for eleven LEDs, controlled by a variator.
+This is a program for a blinking Christmas tree encoded onto an ATmega88 microchip. The Christmas tree offers four light patterns for eleven LEDs, controlled by a variator.
 
-I built this Christmas tree for a friend as a gift in 2013. She later discovered a bug relating to switching between light patterns. Unfortunately, I couldn't fix it for her, because my design didn't include a USB port and I didn't want to tear apart the whole tree to get to the microchip. A lesson learned, to always design a way to update the code. It was so long ago she discovered the bug so I don't remember how to reproduce it.
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Licensing](#licensing)
+In 2013, I built this Christmas tree as a gift for a friend. She later discovered a bug relating to switching between light patterns. Unfortunately, I couldn't fix it for her, because my design didn't include a USB port and I didn't want to tear apart the whole tree to get to the microchip. A lesson learned; to always design a way to update the code. It was so long ago she discovered the bug so I don't remember how to reproduce it.
 
 ## Installation
-It was a long time ago, and my memory is vague around how I built it. However, I can say that the source code must be compiled into a HEX file (using [Atmel Studio][2] for example) and written to ATmega88's EEPROM.
+It was a long time ago I built this, and my memory is vague around how. However, I can say that the source code must be compiled into a HEX file (using [Atmel Studio][2] for example) and written to ATmega88's EEPROM.
 
 ### Hardware
 Component | Value(s) | Comments
@@ -16,7 +12,7 @@ Component | Value(s) | Comments
 1x [ATmega88 microchip][1] | |
 1x battery | 9&nbsp;V | Will power both the ATmega88 and the LEDs.
 1x four-state variator | |
-11x LEDs | | The colour(s) of your choice.
+11x LEDs | ? | The colour(s) of your choice.
 Material in the form of a Christmas tree | | Plastic or other non-conducting material on which to attach the LEDs and resistors
 [Perfboard][4] | | To hold all the components except the LEDs and their resistors.
 1x resistor | 1.4&nbsp;kΩ&ndash;2.6&nbsp;kΩ | For the ATmega88 microchip's power supply, since the maximum operating voltage is 2.7&nbsp;V&ndash;5.5&nbsp;V.
@@ -34,8 +30,8 @@ In future updates to this project, I will probably take the time to design schem
 ## Usage
 When the hardware is connected, and the software has been written to ATmega88's EEPROM, the user can choose between light patterns on the LEDs, using the variator. To stop the Christmas tree from emitting light, the user has to remove or unplug the battery.
 
-## Licensing
-This application is licensed under an *MIT License*. For detailed license terms, please read [LICENSE][5].
+## Licenses
+This application is distributed under an *MIT License*. For detailed license terms, please read [LICENSE][5].
 
 [1]: http://www.microchip.com/wwwproducts/en/ATmega88
 [2]: https://www.microchip.com/mplab/avr-support/atmel-studio-7
