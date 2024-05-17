@@ -16,8 +16,8 @@
  */
 void switch_off_all_leds()
 {
-	PORTC &= ~(0b00111111);
-	PORTD &= ~(0b00011111);
+    PORTC &= ~(0b00111111);
+    PORTD &= ~(0b00011111);
 }
 
 /*
@@ -27,6 +27,6 @@ void switch_off_all_leds()
  */
 void switch_on_all_leds()
 {
-	PORTC |= 0b00111111;
-	PORTD |= 0b00011111;
+    PORTC |= 0b00111111;
+    PORTD |= 0b00011111;
 }

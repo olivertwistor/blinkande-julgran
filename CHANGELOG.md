@@ -1,13 +1,13 @@
 # Changelog
-All notable changes to this project will be documented in this file.
+This file chronicles all noteworthy changes to this project over time. It is based on [Keep a changelog 1.0.0](https://keepachangelog.com/en/1.0.0/). The versioning scheme I use for the project is [Semantic Versioning 2.0.0](https://semver.org/).
 
-The format is based on [Keep a Changelog][1] and this project adheres to [Semantic Versioning 2.0.0][2].
+## [Unreleased]
+* Changed
+    * Updated the repo documentation to conform to the project model.  
 
-## [0.1.0][3] -- 2019-07-13
+## [0.1.0] (2019-07-13)
+* Added
+    * The C source code as it was back in 2013 when I made this blinking Christmas tree device.
 
-### Added
-* The C source code as it was back in 2013 when I made this blinking Christmas tree device.
-
-[1]: https://keepachangelog.com/en/1.0.0/
-[2]: https://semver.org/
-[3]: https://github.com/olivertwistor/blinking-christmas-tree/wiki/Releases#010---2019-07-13
+[unreleased]: https://github.com/olivertwistor/blinking-christmas-tree/compare/0.1.0...HEAD
+[0.1.0]: https://github.com/olivertwistor/blinking-christmas-tree/compare/e9d0bd03fc59e4d7efdac3d618352d8d9813e646...0.1.0
