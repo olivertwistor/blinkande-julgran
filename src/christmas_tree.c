@@ -8,14 +8,10 @@
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
+#include "config.h"
 #include "macros.h"
 #include "modes.h"
 #include "utils.h"
-
-/* Set the frequency. */
-#ifndef F_CPU
-#define F_CPU 8000000UL // 8 MHz
-#endif
 
 /* Global variables */
 volatile uint32_t timer_count = 0;
