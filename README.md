@@ -1,4 +1,6 @@
 # Blinking Christmas Tree
+**Update 2024-08-30:** I don't have the necessary equipment to compile and develop this project on hardware anymore, so I'll just leave this repository up as a public archive. Feel free to clone it and do something fun and exciting!
+
 This is a program for a blinking Christmas tree encoded onto an ATmega88 microchip. The Christmas tree offers four light patterns for eleven LEDs, controlled by a variator.
 
 In 2013, I built this Christmas tree as a gift for a friend. She later discovered a bug relating to switching between light patterns. Unfortunately, I couldn't fix it for her, because my design didn't include a USB port and I didn't want to tear apart the whole tree to get to the microchip. A lesson learned; to always design a way to update the code. It was so long ago she discovered the bug so I don't remember how to reproduce it.
